@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Dark overlay */
+    url('./2.webp');
+    font-family: "monofonto";
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    z-index: -1;
+}
+@font-face {
+    font-family: "monofonto";
+    src: url('./monofonto\ rg.otf');
+}
+.nav{
+    background-color: white;
+}
+.webdev{
+    margin-left: 125px;
+    display: inline-block;
+    color: rgb(84, 201, 68);
+    cursor: pointer;
+}
+.nav{
+    margin-top: 0;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a:hover{
+    color: rgb(84, 201, 68);
+    text-decoration: underline rgb(84, 201, 68);
+}
+.home{
+    margin-left: 350px;
+}
+.heads{
+    margin-left: 10px;
+}
+.box{
+width: 450px;
+height: 500px;
+margin:80px 0 0 250px; 
+}
+.white{
+    color: white;
+}
+.green{
+color:rgb(84, 201, 68) ;
+}
+.head{
+    font-size: 45px;
+}
+p{
+    color: white;
+}
+button{
+    background-color:rgb(84, 201, 68) ;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn1{
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
+}
+.btn2{
+    height: 40px;
+}
+button:hover{
+    background-color: white;
+    color: rgb(84, 201, 68);
+    border: 2px solid rgb(84, 201, 68);
+}
